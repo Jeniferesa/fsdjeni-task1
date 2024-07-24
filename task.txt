@@ -1,0 +1,15 @@
+HTTP 1.1 Its works on the textual format.
+There is head of line blocking that blocks all the requests behind it until it doesn't get its all resources
+It uses requests resoure inlining for use getting multiple pages 
+it compresses data by itself,
+
+
+
+HTTP2 it works on the binary protocol
+it allows multiplexing so one TCP connection is required for multiple requests
+it uses PUSH frame by server that collects all multiple pages
+it uses HPACK for data compression
+HTTP1 and HTTP2 are both communication protocol used for tranferring data over the internet.HTTP1 the traditional protocol,sends requests and responses in a serial manner, leading to potential delays and slower performance .on the other hand, HTTP2 allowes multiplexing enabling multiple requests & responses to be sent simultaneously improving overall speed and efficiency . Additionally HTTP2 inculdes features like 
+header compression & SEVER PUSH further enhancing performance . 
+overall while HTTP1 has served us well for many years, the adoption of HTTP2 is crucial for faster more 
+reliable web experience in todays digital age .
